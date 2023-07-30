@@ -1,6 +1,6 @@
 # PurpleBot
 
-PurpleBot is a Discord bot written in Python using the [discord.js](https://discord.js.org) library.
+PurpleBot is a Discord bot written in Javascript using the [discord.js](https://discord.js.org) library.
 
 
 ## Installation and usage
