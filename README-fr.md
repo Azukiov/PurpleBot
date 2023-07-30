@@ -1,4 +1,4 @@
-[FR](README-fr.md) | [EN](README.md)
+[retour](https://github.com/Azukiov/PurpleBot)  -  [FR](README-fr.md) | [EN](README.md)
 
 # PurpleBot
 
