@@ -1,0 +1,20 @@
+{
+  "name": "purplebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azukiov/PurpleBot.git"
+  },
+  "author": "https://github.com/Azukiov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azukiov/PurpleBot/issues"
+  },
+  "homepage": "https://github.com/Azukiov/PurpleBot#readme"
+}
