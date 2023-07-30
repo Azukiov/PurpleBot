@@ -1,3 +1,5 @@
+[FR](README-fr.md) | [EN](README.md)
+
 # PurpleBot
 
 PurpleBot is a Discord bot written in Javascript using the [discord.js](https://discord.js.org) library.
