@@ -19,6 +19,8 @@ PurpleBot is a Discord bot written in Javascript using the [discord.js](https://
 ```bash
 git clone https://github.com/Azukiov/PurpleBot.git
 ```
+or download the repository [here](https://github.com/Azukiov/PurpleBot/archive/refs/heads/main.zip) and unzip it
+
 
 2. Install dependencies
 ```bash
@@ -29,10 +31,12 @@ or start
 installer.bat
 ```
 
+
 3. rename the file ```.env.example``` to ```.env``` and complete it with your information
 ```env
 TOKEN=your_token
 ```
+
 
 4. Start the bot
 ```bash
@@ -42,6 +46,7 @@ or start
 ```bash
 start.bat
 ```
+
 
 ## Contributing
 
