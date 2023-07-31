@@ -1,5 +1,4 @@
 const { Events, EmbedBuilder, WebhookClient } = require('discord.js');
-const webhook = new WebhookClient({ url: process.env.webhook_ready });
 const { wait, log } = require('../utils/functions.js');
 
 module.exports = {

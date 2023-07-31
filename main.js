@@ -14,12 +14,12 @@ require('dotenv').config();
 require('./src/utils/db.js')
 
 
-const { log } = require('./utils/functions.js');
+const { log } = require('./src/utils/functions.js');
 
 
 client.commands = new Collection();
 const commands = []
-const foldersPath = path.join(__dirname, 'commands');
+const foldersPath = path.join(__dirname, 'src/commands');
 const commandFolders = fs.readdirSync(foldersPath);
 
 for (const folder of commandFolders) {
@@ -61,8 +61,8 @@ client.on(Events.ClientReady, async (client) => {
 
 
 
-readdirSync('./events').forEach(async file => {
-    const event = require(`./events/${file}`);
+readdirSync('./src/events').forEach(async file => {
+    const event = require(`./src/events/${file}`);
     if (event.once) {
         client.once(event.name, (...args) => event.execute(...args));
         log(`Loaded event ${event.name}`);
